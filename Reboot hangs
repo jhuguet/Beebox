@@ -1,0 +1,7 @@
+Ubuntu 16.04  hangs on reboot in CLI
+====================================
+Add "acpi=off" to /etc/default/grub
+
+GRUB_CMDLINE_LINUX="quiet splash acpi=off"
+
+update-grub
